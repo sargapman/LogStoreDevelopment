@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F13ACEE82460B4BF00B7E348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13ACEE72460B4BF00B7E348 /* AppDelegate.swift */; };
+		F13ACEEA2460B4BF00B7E348 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13ACEE92460B4BF00B7E348 /* SceneDelegate.swift */; };
+		F13ACEEC2460B4BF00B7E348 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13ACEEB2460B4BF00B7E348 /* ViewController.swift */; };
+		F13ACEEF2460B4BF00B7E348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13ACEED2460B4BF00B7E348 /* Main.storyboard */; };
+		F13ACEF12460B4C200B7E348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13ACEF02460B4C200B7E348 /* Assets.xcassets */; };
+		F13ACEF42460B4C200B7E348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13ACEF22460B4C200B7E348 /* LaunchScreen.storyboard */; };
+		F13ACF002460B73500B7E348 /* LogStore in Frameworks */ = {isa = PBXBuildFile; productRef = F13ACEFF2460B73500B7E348 /* LogStore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F13ACEE42460B4BF00B7E348 /* LogStoreDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogStoreDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13ACEE72460B4BF00B7E348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F13ACEE92460B4BF00B7E348 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F13ACEEB2460B4BF00B7E348 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F13ACEEE2460B4BF00B7E348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13ACEF02460B4C200B7E348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13ACEF32460B4C200B7E348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13ACEF52460B4C200B7E348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13ACEFD2460B65500B7E348 /* LogStore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LogStore; path = ../LogStore; sourceTree = "<group>"; };
+		F15E854D246C9A5C009E1992 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13ACEE12460B4BF00B7E348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13ACF002460B73500B7E348 /* LogStore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F13ACEDB2460B4BF00B7E348 = {
+			isa = PBXGroup;
+			children = (
+				F13ACEFD2460B65500B7E348 /* LogStore */,
+				F13ACEE62460B4BF00B7E348 /* LogStoreDevelopment */,
+				F13ACEE52460B4BF00B7E348 /* Products */,
+				F13ACEFE2460B73500B7E348 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F13ACEE52460B4BF00B7E348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13ACEE42460B4BF00B7E348 /* LogStoreDevelopment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13ACEE62460B4BF00B7E348 /* LogStoreDevelopment */ = {
+			isa = PBXGroup;
+			children = (
+				F13ACEE72460B4BF00B7E348 /* AppDelegate.swift */,
+				F13ACEE92460B4BF00B7E348 /* SceneDelegate.swift */,
+				F13ACEEB2460B4BF00B7E348 /* ViewController.swift */,
+				F13ACEED2460B4BF00B7E348 /* Main.storyboard */,
+				F13ACEF02460B4C200B7E348 /* Assets.xcassets */,
+				F13ACEF22460B4C200B7E348 /* LaunchScreen.storyboard */,
+				F13ACEF52460B4C200B7E348 /* Info.plist */,
+				F15E854D246C9A5C009E1992 /* README.md */,
+			);
+			path = LogStoreDevelopment;
+			sourceTree = "<group>";
+		};
+		F13ACEFE2460B73500B7E348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13ACEE32460B4BF00B7E348 /* LogStoreDevelopment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13ACEF82460B4C200B7E348 /* Build configuration list for PBXNativeTarget "LogStoreDevelopment" */;
+			buildPhases = (
+				F13ACEE02460B4BF00B7E348 /* Sources */,
+				F13ACEE12460B4BF00B7E348 /* Frameworks */,
+				F13ACEE22460B4BF00B7E348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogStoreDevelopment;
+			packageProductDependencies = (
+				F13ACEFF2460B73500B7E348 /* LogStore */,
+			);
+			productName = LogStoreDevelopment;
+			productReference = F13ACEE42460B4BF00B7E348 /* LogStoreDevelopment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13ACEDC2460B4BF00B7E348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Monty Boyer";
+				TargetAttributes = {
+					F13ACEE32460B4BF00B7E348 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F13ACEDF2460B4BF00B7E348 /* Build configuration list for PBXProject "LogStoreDevelopment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13ACEDB2460B4BF00B7E348;
+			productRefGroup = F13ACEE52460B4BF00B7E348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13ACEE32460B4BF00B7E348 /* LogStoreDevelopment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13ACEE22460B4BF00B7E348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13ACEF42460B4C200B7E348 /* LaunchScreen.storyboard in Resources */,
+				F13ACEF12460B4C200B7E348 /* Assets.xcassets in Resources */,
+				F13ACEEF2460B4BF00B7E348 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13ACEE02460B4BF00B7E348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13ACEEC2460B4BF00B7E348 /* ViewController.swift in Sources */,
+				F13ACEE82460B4BF00B7E348 /* AppDelegate.swift in Sources */,
+				F13ACEEA2460B4BF00B7E348 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F13ACEED2460B4BF00B7E348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13ACEEE2460B4BF00B7E348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13ACEF22460B4C200B7E348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13ACEF32460B4C200B7E348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13ACEF62460B4C200B7E348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F13ACEF72460B4C200B7E348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13ACEF92460B4C200B7E348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q22UWZ3RWC;
+				INFOPLIST_FILE = LogStoreDevelopment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlb.LogStoreDevelopment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F13ACEFA2460B4C200B7E348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q22UWZ3RWC;
+				INFOPLIST_FILE = LogStoreDevelopment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlb.LogStoreDevelopment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13ACEDF2460B4BF00B7E348 /* Build configuration list for PBXProject "LogStoreDevelopment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13ACEF62460B4C200B7E348 /* Debug */,
+				F13ACEF72460B4C200B7E348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13ACEF82460B4C200B7E348 /* Build configuration list for PBXNativeTarget "LogStoreDevelopment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13ACEF92460B4C200B7E348 /* Debug */,
+				F13ACEFA2460B4C200B7E348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F13ACEFF2460B73500B7E348 /* LogStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LogStore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F13ACEDC2460B4BF00B7E348 /* Project object */;
+}
