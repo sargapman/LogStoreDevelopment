@@ -12,24 +12,14 @@ import LogStore
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var trigger: LogTrigger?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
         guard let _ = (scene as? UIWindowScene) else { return }
-                
-        // Create a trigger window and assign its rootViewCtrl to the the rVC of the existing window.
-        let triggerWindow = TriggerWindow(frame: UIScreen.main.bounds)
-        triggerWindow.rootViewController = window?.rootViewController
         
-        // must set the window scene for the window
-        triggerWindow.windowScene = scene as? UIWindowScene
-        
-        // make this window the key window to receive all non-touch related events
-        triggerWindow.makeKeyAndVisible()
-        
-        // set the new trigger window to the scene's window prop
-        window = triggerWindow
-        
+        // setup the motion trigger for displaying the log
+        trigger = LogTrigger(in: window)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
