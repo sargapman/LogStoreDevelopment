@@ -20,6 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         // setup the motion trigger for displaying the log
         trigger = LogTrigger(in: window)
+        
+        setLoggingAppName("LogStore Development")
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
