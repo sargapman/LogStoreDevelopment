@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96F827942A29621E0086EC44 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F827932A29621E0086EC44 /* Date+Ext.swift */; };
 		F13ACEE82460B4BF00B7E348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13ACEE72460B4BF00B7E348 /* AppDelegate.swift */; };
 		F13ACEEA2460B4BF00B7E348 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13ACEE92460B4BF00B7E348 /* SceneDelegate.swift */; };
 		F13ACEEC2460B4BF00B7E348 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13ACEEB2460B4BF00B7E348 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96F827932A29621E0086EC44 /* Date+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		F13ACEE42460B4BF00B7E348 /* LogStoreDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogStoreDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13ACEE72460B4BF00B7E348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13ACEE92460B4BF00B7E348 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				F13ACEE72460B4BF00B7E348 /* AppDelegate.swift */,
 				F13ACEE92460B4BF00B7E348 /* SceneDelegate.swift */,
 				F13ACEEB2460B4BF00B7E348 /* ViewController.swift */,
+				96F827932A29621E0086EC44 /* Date+Ext.swift */,
 				F13ACEED2460B4BF00B7E348 /* Main.storyboard */,
 				F13ACEF02460B4C200B7E348 /* Assets.xcassets */,
 				F13ACEF22460B4C200B7E348 /* LaunchScreen.storyboard */,
@@ -158,6 +161,7 @@
 				F13ACEEC2460B4BF00B7E348 /* ViewController.swift in Sources */,
 				F13ACEE82460B4BF00B7E348 /* AppDelegate.swift in Sources */,
 				F13ACEEA2460B4BF00B7E348 /* SceneDelegate.swift in Sources */,
+				96F827942A29621E0086EC44 /* Date+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -291,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -308,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q22UWZ3RWC;
 				INFOPLIST_FILE = LogStoreDevelopment/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,7 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q22UWZ3RWC;
 				INFOPLIST_FILE = LogStoreDevelopment/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

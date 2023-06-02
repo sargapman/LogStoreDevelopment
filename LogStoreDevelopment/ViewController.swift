@@ -23,6 +23,13 @@ class ViewController: UIViewController {
         
         // a couple of test log entries
         printLog("viewDidAppear")
+       
+       // some experiments
+//          let todString = Date.todFromDate(date: Date())
+//          print(todString)
+//       
+//          let tAndDString = Date.adjustedDateAndTimeStringFromDate(date: Date(), returnGMT: false)
+//          print(tAndDString)
     }
 
 }
