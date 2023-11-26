@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9674DBB32B12B6E700C63A4A /* LogStore in Frameworks */ = {isa = PBXBuildFile; productRef = 9674DBB22B12B6E700C63A4A /* LogStore */; };
+		9674DBB62B12B74800C63A4A /* LogStore in Frameworks */ = {isa = PBXBuildFile; productRef = 9674DBB52B12B74800C63A4A /* LogStore */; };
 		96F827942A29621E0086EC44 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F827932A29621E0086EC44 /* Date+Ext.swift */; };
 		F13ACEE82460B4BF00B7E348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13ACEE72460B4BF00B7E348 /* AppDelegate.swift */; };
 		F13ACEEA2460B4BF00B7E348 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13ACEE92460B4BF00B7E348 /* SceneDelegate.swift */; };
@@ -27,7 +29,6 @@
 		F13ACEF02460B4C200B7E348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13ACEF32460B4C200B7E348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F13ACEF52460B4C200B7E348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F13ACEFD2460B65500B7E348 /* LogStore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LogStore; path = ../LogStore; sourceTree = "<group>"; };
 		F15E854D246C9A5C009E1992 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,6 +38,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13ACF002460B73500B7E348 /* LogStore in Frameworks */,
+				9674DBB32B12B6E700C63A4A /* LogStore in Frameworks */,
+				9674DBB62B12B74800C63A4A /* LogStore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +49,7 @@
 		F13ACEDB2460B4BF00B7E348 = {
 			isa = PBXGroup;
 			children = (
-				F13ACEFD2460B65500B7E348 /* LogStore */,
+				F15E854D246C9A5C009E1992 /* README.md */,
 				F13ACEE62460B4BF00B7E348 /* LogStoreDevelopment */,
 				F13ACEE52460B4BF00B7E348 /* Products */,
 				F13ACEFE2460B73500B7E348 /* Frameworks */,
@@ -72,7 +75,6 @@
 				F13ACEF02460B4C200B7E348 /* Assets.xcassets */,
 				F13ACEF22460B4C200B7E348 /* LaunchScreen.storyboard */,
 				F13ACEF52460B4C200B7E348 /* Info.plist */,
-				F15E854D246C9A5C009E1992 /* README.md */,
 			);
 			path = LogStoreDevelopment;
 			sourceTree = "<group>";
@@ -102,6 +104,8 @@
 			name = LogStoreDevelopment;
 			packageProductDependencies = (
 				F13ACEFF2460B73500B7E348 /* LogStore */,
+				9674DBB22B12B6E700C63A4A /* LogStore */,
+				9674DBB52B12B74800C63A4A /* LogStore */,
 			);
 			productName = LogStoreDevelopment;
 			productReference = F13ACEE42460B4BF00B7E348 /* LogStoreDevelopment.app */;
@@ -131,6 +135,9 @@
 				Base,
 			);
 			mainGroup = F13ACEDB2460B4BF00B7E348;
+			packageReferences = (
+				9674DBB42B12B74800C63A4A /* XCLocalSwiftPackageReference "../LogStorePackage/LogStore" */,
+			);
 			productRefGroup = F13ACEE52460B4BF00B7E348 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -320,6 +327,9 @@
 				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mlb.LogStoreDevelopment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -340,6 +350,9 @@
 				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mlb.LogStoreDevelopment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -368,7 +381,22 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		9674DBB42B12B74800C63A4A /* XCLocalSwiftPackageReference "../LogStorePackage/LogStore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../LogStorePackage/LogStore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		9674DBB22B12B6E700C63A4A /* LogStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LogStore;
+		};
+		9674DBB52B12B74800C63A4A /* LogStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LogStore;
+		};
 		F13ACEFF2460B73500B7E348 /* LogStore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LogStore;
